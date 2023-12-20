@@ -36,6 +36,53 @@ Uma operação de refatoração que pode ajudar a tornar um projeto de código m
 
 Ao extrair métodos, você pode criar componentes independentes que podem ser estendidos ou substituídos individualmente, melhorando a extensibilidade geral do código. Além disso, a extração de métodos pode melhorar a clareza e coesão do código, tornando-o mais legível e fácil de manter.
 
+
+
+
+
+
+
+
+
+## Ausência de Duplicidades
+
+A ausência de duplicidades é um atributo essencial em código de qualidade, fundamentado no princípio de evitar redundâncias desnecessárias. A detecção de duplicidades indica a repetição de lógica, expressões ou funcionalidades em diversos locais do código, abrangendo desde funções e classes até fragmentos mais pequenos de código.
+
+### Efeitos no Código:
+
+ - Estrutura: A eliminação de duplicidades aprimora a estrutura do código, evitando a fragmentação da lógica em várias partes e fomentando uma organização mais coesa e concisa.
+ - Claridade: A ausência de duplicidades resulta em um código mais claro e de fácil compreensão, pois os desenvolvedores não precisam buscar e entender múltiplas instâncias de uma mesma lógica.
+ - Eficiência: A reutilização de código reduz o tamanho do programa, contribuindo para um código mais enxuto e gerenciável.
+ - Manutenção: Quando alterações são necessárias, a ausência de duplicidades implica fazer a modificação em um único local, aumentando a produtividade e diminuindo a chance de erros.
+ - Coesão: A eliminação de duplicidades fortalece a coesão do código, concentrando a lógica em um local central e tornando o comportamento de funções ou classes mais consistente.
+ - Acoplamento: A redução de duplicações também pode levar a um menor acoplamento entre diferentes partes do código, uma vez que a funcionalidade compartilhada é centralizada.
+
+### Relação com Maus-Cheiros de Código (Fowler):
+
+Relação com maus cheiros de código: A ausência de duplicidades está intrinsecamente ligada à eliminação do mau cheiro de "Código duplicado", abordando soluções para evitar repetições desnecessárias de trechos de código.
+
+Operação de refatoração: A técnica amplamente utilizada, como a operação de refatoração Extract Method, destaca-se como uma abordagem eficaz para eliminar duplicidades. Identificar trechos duplicados e extrair essas partes para um método separado promove a reutilização de código, melhora a manutenibilidade e evita erros resultantes de alterações inconsistentes.
+
+Em resumo, a ausência de duplicidades não é apenas um princípio de desenvolvimento de software, mas uma prática que eleva a qualidade do código, facilita a manutenção e promove a construção de sistemas mais eficientes e robustos. Incorporar essa filosofia no desenvolvimento de software é fundamental para garantir soluções sólidas e sustentáveis a longo prazo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Referências Bibliográficas
 - Livro "Refactoring: Improving the Design of Existing Code" de Martin Fowler
 - Artigo "The Importance of Simplicity in Software Development" de Robert C. Martin
