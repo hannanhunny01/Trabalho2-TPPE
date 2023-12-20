@@ -95,9 +95,6 @@ A simplicidade, ao ser incorporada no desenvolvimento, aborda diversas preocupa�
  - Comentários Desnecessários: Um código simples muitas vezes elimina a necessidade de comentários excessivos, pois sua clareza intrínseca facilita a compreensão.
  - Classes com Muitas Responsabilidades: A busca pela simplicidade resulta em classes mais focadas e específicas, evitando o acúmulo de responsabilidades.
 
-
-
-
 ## Modularidade
 
 A modularidade é uma prática fundamental em projetos de software, caracterizada pela divisão do código em módulos independentes, cada um com uma responsabilidade clara e bem definida. Esses módulos, ao serem combinados, formam a base de sistemas complexos, proporcionando diversos benefícios à estrutura do código e à sua qualidade geral.
@@ -119,14 +116,31 @@ A modularidade contribui para uma estrutura organizada e gerenciável do código
 A modularidade atua como um antídoto para vários maus-cheiros identificados por Fowler. Em particular, a "Mudança Divergente" é combatida pela clara definição de responsabilidades em cada módulo. Quando uma alteração no código exige modificações em várias partes do sistema, isso pode ser um sinal de falta de modularidade. Ao manter módulos independentes e coesos, a modularidade reduz a propensão a este mau-cheiro.
 Em suma, a modularidade não é apenas uma prática de design, mas uma abordagem que molda a estrutura, claridade, coesão e acoplamento do código, promovendo um desenvolvimento de software mais eficiente e sustentável.
 
+## Boa documentação 
+A documentação de software é um conjunto de informações que descreve o software, seu funcionamento e como usá-lo. Ela é importante para todos os envolvidos em um projeto de software, incluindo usuários, desenvolvedores e administradores.
 
+### Efeitos no código:
 
+- Clara e concisa: deve ser escrita em linguagem simples e direta, evitando jargões técnicos ou termos incompreensíveis.
+- Completa e abrangente: deve fornecer todas as informações necessárias para entender o software, desde sua funcionalidade até sua instalação e manutenção.
+- Atualizada regularmente: deve ser atualizada sempre que houver alterações no software.
+- Disponível em diversos idiomas: deve estar disponível em idiomas que sejam relevantes para o público-alvo do software.
 
+A boa documentação oferece diversos benefícios, incluindo:
 
+- Melhora a experiência do usuário: uma boa documentação ajuda os usuários a aprenderem a usar o software de forma rápida e fácil, reduzindo o custo de suporte técnico.
+- Facilita o desenvolvimento e manutenção do software: uma boa documentação ajuda os desenvolvedores a entenderem o código e a fazer alterações de forma segura, reduzindo o custo de manutenção do software.
+- Previne a ocorrência de maus cheiros de código: uma boa documentação ajuda a identificar e corrigir maus cheiros de código, que são sintomas de problemas potenciais no design e implementação do software.
 
+### Relação com maus cheiros de código (Fowler) 
 
+A boa documentação pode ajudar a mitigar os efeitos dos maus cheiros de código. Ela pode fornecer informações que ajudam os desenvolvedores a entender o código e a tomar decisões informadas sobre como melhorá-lo.
 
+Por exemplo, uma boa documentação pode ajudar a identificar código complexo e a fornecer informações sobre como ele pode ser simplificado. Também pode ajudar a identificar código frágil e a fornecer informações sobre como ele pode ser tornado mais robusto. Além disso, pode ajudar a identificar código acoplado e a fornecer informações sobre como ele pode ser reduzido ou operado.
 
+A operação de refatoração de extração de método pode ser utilizada para melhorar a qualidade da documentação de um projeto de software. A extração de método envolve a criação de um novo método a partir de um trecho de código existente, agrupando a lógica relacionada em uma única função com um nome significativo.
+
+A extração de método torna mais fácil para outros desenvolvedores entenderem o propósito e o funcionamento da função, melhorando a colaboração no projeto e ajudando na manutenção futura. Além disso, ao usar bons nomes de métodos e argumentos, a documentação fica mais legível, facilitando a compreensão do código e evitando a necessidade de comentários excessivos.
 
 ## Referências Bibliográficas
 - Livro "Refactoring: Improving the Design of Existing Code" de Martin Fowler
