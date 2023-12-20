@@ -6,9 +6,6 @@
 | ---------------------- | --------- |
 | Josué Teixeira Santana | 202029012 |
 | Abdul hannan           | 202045624 |
-| Luís Guilherme         | 180022962 |
-| Victor Eduardo         | 190038926 |
-| Levi Queiroz           | 170108341 |
 | Heitor Marques         | 202016462 |
 
 ## Extensibilidade
@@ -69,10 +66,58 @@ Em resumo, a ausência de duplicidades não é apenas um princípio de desenvolv
 
 
 
+## Simplicidade 
+
+A simplicidade no design de software é a arte de criar soluções claras e facilmente compreensíveis, evitando complexidades desnecessárias. Este princípio busca aprimorar a estrutura do código, proporcionando benefícios tangíveis à sua organização e legibilidade. A busca pela simplicidade resulta em códigos concisos e diretos, contribuindo para uma manutenção eficiente e redução de erros.
+
+### Efeitos no Código
+
+ - Estrutura Clara e Organizada: A simplicidade promove uma estrutura de código mais lógica e bem organizada. Ao decompor tarefas complexas em componentes menores e gerenciáveis, cria-se uma arquitetura modular que facilita a navegação no código-fonte.
+ - Facilidade de Leitura e Compreensão: Um código simples é mais legível, favorecendo a compreensão por parte de outros desenvolvedores. Essa característica é crucial em projetos de equipe, onde diferentes pessoas interagem com diferentes partes do código.
+ - Redução da Duplicação de Código: A busca pela simplicidade identifica e elimina redundâncias, reduzindo a duplicação de código. Isso resulta em código mais conciso, fácil de manter e menos suscetível a erros.
+ - Coesão Melhorada: A simplicidade fortalece a coesão entre os componentes do software. Ao definir responsabilidades específicas para cada módulo, facilita-se a manutenção e a modificação do código.
+ - Baixo Acoplamento: A simplificação do código contribui para um menor acoplamento entre os módulos do software. Isso permite alterações em componentes específicos sem impactar todo o sistema, conferindo flexibilidade e adaptabilidade.
+ - Facilidade de Testes: Códigos simples são mais fáceis de testar, pois suas funcionalidades estão bem definidas e isoladas. Testes de unidade e integração tornam-se mais simples e eficazes.
+ - Facilidade de Depuração: Em códigos simples, é mais fácil identificar a origem de bugs, pois a lógica é clara e a complexidade é reduzida.
+ - Facilidade de Manutenção e Evolução: A simplicidade torna a manutenção e evolução do software mais eficientes. Novas funcionalidades podem ser implementadas de forma rápida e menos propensa a causar problemas inesperados.
+
+### Relação com Maus-Cheiros de Código (Fowler)
+
+A simplicidade, ao ser incorporada no desenvolvimento, aborda diversas preocupações identificadas por Martin Fowler como "maus cheiros" de código:
+
+ - Duplicação de Código: A simplicidade visa eliminar duplicações, reduzindo redundâncias e melhorando a manutenibilidade do código.
+ - Métodos Longos: Ao buscar simplicidade, métodos longos são quebrados em unidades menores e mais coesas, melhorando a clareza e facilitando a manutenção.
+ - Classes Grandes: A busca pela simplicidade incentiva a criação de classes mais específicas e encapsuladas, evitando a complexidade desnecessária.
+ - Muitos Parâmetros: A simplificação do código reduz a necessidade de muitos parâmetros, tornando as funções mais compreensíveis.
+ - Métodos Complexos Condicionais: A simplicidade favorece a simplificação de expressões condicionais complexas, melhorando a legibilidade.
+ - Dependências Desnecessárias: A busca pela simplicidade reduz o acoplamento desnecessário entre classes, promovendo uma estrutura mais modular.
+ - Código Pouco Claro: A simplicidade combate a falta de clareza, promovendo uma escrita de código mais compreensível.
+ - Comentários Desnecessários: Um código simples muitas vezes elimina a necessidade de comentários excessivos, pois sua clareza intrínseca facilita a compreensão.
+ - Classes com Muitas Responsabilidades: A busca pela simplicidade resulta em classes mais focadas e específicas, evitando o acúmulo de responsabilidades.
 
 
 
 
+## Modularidade
+
+A modularidade é uma prática fundamental em projetos de software, caracterizada pela divisão do código em módulos independentes, cada um com uma responsabilidade clara e bem definida. Esses módulos, ao serem combinados, formam a base de sistemas complexos, proporcionando diversos benefícios à estrutura do código e à sua qualidade geral.
+
+### Efeitos no Código
+
+A modularidade contribui para uma estrutura organizada e gerenciável do código. Ao dividir o sistema em unidades lógicas, cria-se uma arquitetura que facilita a leitura, manutenção e compreensão do código. A abordagem modular resulta em blocos de construção independentes, promovendo a reusabilidade e simplificando o desenvolvimento.
+
+ #### Impacto na Claridade e Compreensão:
+ 
+   - Módulos independentes tornam o código mais claro e compreensível. Cada módulo representa uma unidade coesa de funcionalidades, permitindo que os desenvolvedores se concentrem em partes específicas do sistema sem se perderem em detalhes desnecessários. Isso melhora a legibilidade do código e facilita o compartilhamento de conhecimento entre membros da equipe.
+
+#### Coesão e Acoplamento:
+
+   - A alta coesão, característica intrínseca à modularidade, significa que cada módulo contém funcionalidades relacionadas, evitando fragmentação e dispersão de lógica. Em contrapartida, o baixo acoplamento entre módulos minimiza as dependências, tornando o código mais flexível. Mudanças em um módulo têm impacto limitado em outros, reduzindo a propagação de efeitos colaterais não intencionais.
+
+### Relação com Maus-Cheiros de Código (Fowler)
+
+A modularidade atua como um antídoto para vários maus-cheiros identificados por Fowler. Em particular, a "Mudança Divergente" é combatida pela clara definição de responsabilidades em cada módulo. Quando uma alteração no código exige modificações em várias partes do sistema, isso pode ser um sinal de falta de modularidade. Ao manter módulos independentes e coesos, a modularidade reduz a propensão a este mau-cheiro.
+Em suma, a modularidade não é apenas uma prática de design, mas uma abordagem que molda a estrutura, claridade, coesão e acoplamento do código, promovendo um desenvolvimento de software mais eficiente e sustentável.
 
 
 
