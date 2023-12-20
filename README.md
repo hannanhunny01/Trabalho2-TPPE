@@ -11,38 +11,30 @@
 | Levi Queiroz           | 170108341 |
 | Heitor Marques         | 202016462 |
 
-## Simplicidade
+## Extensibilidade
 
-A simplicidade é uma característica de um bom projeto que se refere à facilidade de compreensão e manutenção do código. Um código simples é aquele que é fácil de entender, mesmo para um desenvolvedor que não esteja familiarizado com o projeto.
+A extensibilidade é uma característica de um sistema de software que permite que ele seja facilmente adaptado a novas necessidades ou mudanças. Em termos de estrutura, a extensibilidade geralmente envolve a criação de componentes modulares e de baixo acoplamento, permitindo que as partes do sistema sejam modificadas ou estendidas sem afetar outras partes.
 
-Os efeitos da simplicidade no código são diversos, incluindo:
+### Efeitos no código
 
-- Melhor estrutura: O código simples é geralmente mais estruturado, com uma hierarquia clara de classes e métodos. Isso facilita a compreensão da lógica do código e a identificação de problemas.
-- Maior clareza: O código simples é mais claro, com nomes de variáveis, classes e métodos que são descritivos. Isso torna o código mais fácil de entender e de manter.
-- Maior coesão: O código simples é mais coeso, com classes e métodos que se concentram em tarefas específicas. Isso torna o código mais fácil de manter e de reutilizar.
-- Menor acoplamento: O código simples é menos acoplado, com classes e métodos que dependem uns dos outros de forma mínima. Isso torna o código mais fácil de testar e de modificar.
+A extensibilidade tem os seguintes efeitos no código:
 
-### Relação com os maus-cheiros de código
+- Estrutura: A extensibilidade geralmente resulta em uma estrutura modular, onde as funcionalidades são organizadas em componentes independentes e reutilizáveis. Isso facilita a compreensão e a manutenção do código.
+- Claridade: Componentes extensíveis são projetados para serem facilmente compreensíveis e modificáveis. Isso envolve o uso de nomes descritivos, separação clara de responsabilidades e um design limpo.
+- Coesão: A extensibilidade tende a promover a alta coesão, onde cada componente é responsável por uma única tarefa ou conjunto de tarefas relacionadas. Isso melhora a modularidade e facilita a manutenção do código.
+- Acoplamento: A extensibilidade busca reduzir o acoplamento entre os componentes, permitindo que eles sejam estendidos ou substituídos sem afetar outras partes do sistema. Isso resulta em um código mais flexível e menos propenso a efeitos colaterais indesejados.
 
-A simplicidade está diretamente relacionada aos maus-cheiros de código definidos por Fowler. Os maus-cheiros são indicadores de que o código é complexo e difícil de entender e manter.
+### Relação com os maus cheiros definidos por Fowler
 
-Alguns dos maus-cheiros de código que estão relacionados à simplicidade são:
+Os "maus cheiros de código" são padrões ou práticas de programação que indicam a presença de problemas ou deficiências no código-fonte. A extensibilidade pode ajudar a mitigar ou evitar muitos desses maus-cheiros, pois um código extensível é projetado com foco na manutenção e em evitar armadilhas comuns.
 
-- Duplicação: A duplicação de código é um sinal de que o código não é simples. Isso ocorre porque o código duplicado é mais difícil de entender e de manter.
-- Código incoerente: O código incoerente é um sinal de que o código não é simples. Isso ocorre porque o código incoerente é mais difícil de entender e de manter.
-- Acoplamento excessivo: O acoplamento excessivo é um sinal de que o código não é simples. Isso ocorre porque o código acoplado é mais difícil de testar e de modificar.
+Por exemplo, um mau-cheiro comum é a "Classe Deus" (God Class), que é uma classe que realiza muitas tarefas diferentes e tem muitas responsabilidades. A extensibilidade pode ser usada para dividir essa classe em componentes menores e mais focados, melhorando a coesão e tornando o código mais modular e fácil de entender.
 
-### Operação de refatoração
+### Operação de refatoração para alcançar a extensibilidade
 
-Uma operação de refatoração que pode levar o projeto de código a ter a característica da simplicidade é a refatoração de extração de método. Essa refatoração consiste em extrair um método de uma classe para outra classe ou para o escopo global.
+Uma operação de refatoração que pode ajudar a tornar um projeto de código mais extensível é a "Extração de Método" (Extract Method). Essa operação envolve a identificação de blocos de código repetitivos ou lógica complexa e a extração desses trechos em métodos separados e reutilizados.
 
-A refatoração de extração de método pode ajudar a melhorar a simplicidade do código de várias maneiras. Primeiramente, ela pode ajudar a melhorar a estrutura do código, criando uma hierarquia mais clara de classes e métodos. Em segundo lugar, ela pode ajudar a melhorar a clareza do código, fornecendo nomes mais descritivos para os métodos. Em terceiro lugar, ela pode ajudar a melhorar a coesão do código, movendo o código relacionado para uma classe ou método específico.
-
-As principais operações de refatoração para melhorar a simplicidade do código são a extração de função e a extração de classe. 
-
-**Extrair função** divide um bloco de código em uma unidade menor e mais gerenciável. Isso torna o código mais claro e compreensível, facilitando sua manutenção e reuso. 
-
-**Extrair classe** separa responsabilidades em unidades coesas. Isso evita classes grandes e complexas, tornando o código mais fácil de entender e manter.
+Ao extrair métodos, você pode criar componentes independentes que podem ser estendidos ou substituídos individualmente, melhorando a extensibilidade geral do código. Além disso, a extração de métodos pode melhorar a clareza e coesão do código, tornando-o mais legível e fácil de manter.
 
 ## Referências Bibliográficas
 - Livro "Refactoring: Improving the Design of Existing Code" de Martin Fowler
